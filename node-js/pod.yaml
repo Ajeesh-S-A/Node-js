@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: nodejs-container
-          image: image: node:18-alpine
+          image: ajeesh2000/node-js-1:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
